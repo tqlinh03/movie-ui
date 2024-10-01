@@ -56,7 +56,7 @@ export const LayoutClient = ({ children }: { children: React.ReactNode }) => {
         message.success("Đăng xuất thành công");
       }
     } catch (e) {
-      console.log("error logout: ", e);
+      console.log("error logout..: ", e);
     }
   };
 
